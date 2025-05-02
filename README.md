@@ -18,7 +18,7 @@ We explore and evaluate a **multi-phase fine-tuning strategy**, and compare the 
 
 
 
-## 🧪 Piecewise Fine-Tuning Strategy
+##  Piecewise Fine-Tuning Strategy
 
 The core of this training pipeline is the **piecewise fine-tuning strategy**, where training is explicitly split into **two disjoint phases**:
 
@@ -33,7 +33,7 @@ The core of this training pipeline is the **piecewise fine-tuning strategy**, wh
 
 ---
 
-## 🤖 Model Architecture & Components
+##  Model Architecture & Components
 
 | Component        | Details                                                                  |
 | ---------------- | ------------------------------------------------------------------------ |
@@ -65,7 +65,7 @@ A PyTorch `Dataset` that:
 
 ---
 
-## ⚙️ Training Details
+##  Training Details
 
 | Hyperparameter         | Value                                  |
 | ---------------------- | -------------------------------------- |
@@ -107,7 +107,7 @@ and in the following table it can be seen how ViT effectively outperformed all o
 * `transformers`
 ---
 
-## 💡 Summary
+##  Summary
 
 **Piecewise fine-tuning with ViT** is highly effective for boosting generalization when training on augmented data. By initially training on difficult examples, then fine-tuning on clean ones, the model gradually shifts from robustness to specialization.
 
